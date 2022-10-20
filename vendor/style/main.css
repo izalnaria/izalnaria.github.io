@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
-.btn-master, .btn-first, .btn-second {
+.btn-master,
+.btn-first,
+.btn-second {
   padding: 15px 30px;
   border-radius: 50px;
   font-weight: 500;
 }
 
 @media (max-width: 575.98px) {
-  .btn-master, .btn-first, .btn-second {
+  .btn-master,
+  .btn-first,
+  .btn-second {
     padding: 10px 20px;
   }
 }
@@ -35,7 +39,7 @@
 }
 
 .navbar {
-  background-color: #fef1e8 !important;
+  background-color: #ffffff !important;
   padding: 35px 0;
 }
 
@@ -64,7 +68,7 @@
 .navbar.scrolled {
   padding: 10px 0;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
 }
 
 .navbar.scrolled .navbar-brand img {
@@ -221,6 +225,9 @@
 }
 
 @media (max-width: 575.98px) {
+  .category {
+    margin-top: 270px;
+  }
   .category i {
     font-size: 30px;
   }
@@ -307,9 +314,9 @@
 
 .product .card .thumbnail img:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .about img {
